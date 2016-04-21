@@ -16,48 +16,68 @@ div {
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 16px;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-p {
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  line-height: 20px;
-  margin-bottom: 1em;
-  margin-top: 1em;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
-ul {
-  margin: 10px 0 0 0;
-  padding: 0 0 0 20px;
+h2:after {
+  content: " ";
+  display: block;
+  width: 120%;
+  height: 10px;
+  border-top: solid 5px #ffd134;
+  padding-bottom: 5px;
+  border-bottom: solid 5px #ffd134;
+  position: absolute;
+  transform: rotate(-3.3deg);
+  left: -10%;
 }
-
-li {
-  font-weight: 400;
-  margin-top: 4px;
-}
-
-input {
-  border: 1px solid #106cc8;
-  font-size: 14px;
-  height: 40px;
-  outline: none;
-  padding: 8px;
-}
-
-button {
-  background-color: #106cc8;
-  border-style: none;
-  color: rgba(255, 255, 255, 0.87);
-  cursor: pointer;
+h2 {
+  text-transform: uppercase;
   display: inline-block;
-  font-size: 14px;
-  height: 40px;
-  padding: 8px 18px;
-  text-decoration: none;
+  position: relative;
+  margin-bottom: 25px;
 }
+.image-header {
+  height: 65vh;
+  position: relative;
+  overflow: hidden;
+}
+.image-slider {
+  position: absolute;
+  left: 0;
+  width: 100%;
 
-button:hover {
-  background-color: #28739e;
+}
+.image-slider img {
+  width: 100%;
+}
+.image-header h1 {
+  color: #ffd134;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background: white;
+  position: relative;
+  font-size: 48px;
+  padding: 7px 0;
+  top: calc(50% - 33px);
+  position: absolute;
+}
+.background-gray {
+  background: #f9f6f7;
+}
+#welcome {
+  padding-top: 25px;
+  padding-bottom: 35px;
+  font-size: 24px;
+  text-align: center
+}
+#work img {
+  margin: auto;
 }

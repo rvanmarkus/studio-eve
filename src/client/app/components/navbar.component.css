@@ -1,22 +1,41 @@
 :host {
-  border-color: #e1e1e1;
-  border-style: solid;
-  border-width: 0 0 1px;
   display: block;
-  height: 48px;
   padding: 0 16px;
+  position: fixed;
+  z-index: 10;
+  margin-top: 15px;
+  width: 100%;
 }
 
 nav a {
   color: #8f8f8f;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 48px;
+  line-height: 33px;
   margin-right: 20px;
   text-decoration: none;
+  padding: 5px 10px;
   vertical-align: middle;
+  transition: all .3s ease-in-out;
+  display: inline-block;
 }
-
-nav a.router-link-active {
-  color: #106cc8;
+nav a.logo {
+ background: none !important;
+ color: inherit;
+ position: relative;
+}
+nav a.logo img {
+  height: 70px;
+  width: 70px;
+}
+nav a.router-link-active,
+nav a:hover {
+  background: #ffd134;
+  color: #fff;
+}
+nav.pull-right {
+  margin-top: 15px;
+}
+nav a:hover {
+  transform: scale(1.10);
 }
