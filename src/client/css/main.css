@@ -42,6 +42,9 @@ h2 {
   position: relative;
   margin-bottom: 25px;
 }
+h2.inverted:after {
+  border-color: #fff;
+}
 .image-header {
   height: 65vh;
   position: relative;
@@ -69,6 +72,9 @@ h2 {
   top: calc(50% - 33px);
   position: absolute;
 }
+.background-yellow {
+  background-color: #ffd134;
+}
 .background-gray {
   background: #f9f6f7;
 }
@@ -80,4 +86,19 @@ h2 {
 }
 #work img {
   margin: auto;
+}
+textarea.form-control,
+input.form-control {
+  border-radius: 0;
+  min-height: 45px;
+  border: none;
+  border-bottom: solid 3px #000;
+  border-right: solid 2px #000;
+  transition: all .3s ease;
+}
+.form-control.ng-invalid.ng-touched {
+  border-left: solid 6px indianred
+}
+.form-control.ng-valid.ng-touched {
+  border-left: solid 6px mediumseagreen;
 }

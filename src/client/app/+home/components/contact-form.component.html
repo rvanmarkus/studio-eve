@@ -1,0 +1,47 @@
+<section class="contact-form background-yellow">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-2 text-center">
+				<h2 class="inverted">Contact</h2>
+			</div>
+		</div>
+		<form [ngFormModel]="contactForm" (submit)="submitContactForm($event)" [hidden]="submitted">
+			<div class="row">
+				<div class="col-sm-5">
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<label for="name" class="h4">Your name</label>
+							<input type="text" ngControl="name" class="form-control" id="name" placeholder="" required>
+							<control-messages control="name"></control-messages>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<label for="email" class="h4">Your email</label>
+							<input type="email" ngControl="email" class="form-control" id="email" placeholder="" required>
+							<control-messages control="email"></control-messages>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<label for="phone" class="h4">Your phone</label>
+							<input type="phone" ngControl="phone" class="form-control" id="phone" placeholder="">
+							<control-messages control="phone"></control-messages>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="form-group">
+						<label for="message" class="h4 ">Message</label>
+						<textarea id="message" class="form-control" rows="5" ngControl="message" placeholder="Enter your message" required></textarea>
+					</div>
+					<button type="submit" id="form-submit" [disabled]="!contactForm.valid" class="btn btn-success btn-lg pull-right ">Submit</button>
+					<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+				</div>
+				<div class="col-sm-2">
+
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
