@@ -33,8 +33,9 @@ h2:after {
   padding-bottom: 5px;
   border-bottom: solid 5px #ffd134;
   position: absolute;
-  transform: rotate(-3.3deg);
+  transform: rotate(-2.9deg);
   left: -10%;
+  z-index: -3
 }
 h2 {
   text-transform: uppercase;
@@ -184,4 +185,12 @@ section {
         width: 20%;
         float: left;
     }
+}
+.work-list-row {
+  margin-bottom: 60px;
+}
+.work-list-row b {
+  display: inline-block;
+  margin-top:8px;
+  font-size:19px;
 }

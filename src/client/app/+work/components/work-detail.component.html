@@ -3,9 +3,9 @@
 		<div class="row text-center">
 			<h2>{{work?.title}}</h2>
 		</div>
-		<div class="row">
+		<div class="row work-details-content">
 			<div class="col-sm-6">
-				<div [innerHTML]="work?.content"></div>
+				<section [innerHTML]="work?.content" class="content"></section>
 			</div>
 			<div class="col-sm-6">
 				<img *ngFor="#image of work?.pictures" src="{{image}}" class="img-responsive">

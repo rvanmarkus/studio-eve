@@ -1,3 +1,8 @@
-:host {
+:host .content{
+	text-align: justify;
+	padding-right: 60px;
+}
 
+:host .work-details-content {
+	margin-top: 80px;
 }

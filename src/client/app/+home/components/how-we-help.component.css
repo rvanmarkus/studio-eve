@@ -53,7 +53,9 @@
 }
 #method .content {
 	padding: 8px;
+	text-align: justify;
 }
+
 
 /*#method h3:after {
 	content : " ";
