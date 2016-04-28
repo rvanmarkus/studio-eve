@@ -1,5 +1,6 @@
+import { Work } from '../work.interface';
 export class WorkListService {
-  work = [
+  work : Work[] = [
     {
       title: 'Service design',
       slug: 'service-design',
@@ -28,11 +29,11 @@ export class WorkListService {
       pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
       content: '<p>Lorem ipsum</p>'
     }];
-  getAll():Object[] {
+  getAll():Work[] {
     return this.work;
   }
 
   get(slug : string) {
-    this.work.filter((work) => work.slug === slug);
+    return this.work.filter((work) => work.slug === slug);
   }
 }
