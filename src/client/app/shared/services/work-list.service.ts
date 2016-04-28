@@ -33,12 +33,14 @@ export class WorkListService {
       research process and tested the needs of users with different methods. After this research we found there where some
       important needs in the skybox that weren’t yet covered. A skybox is indirectly a place where people network and look
       for potential business partners. In many skyboxes or lounges the people that attend to these events are not visible or easily to be found.</p>
-      PoolPro could easily help fill up these needs. PoolPro now helps with connecting people and makes it possible for businesses to place their
+      <p>PoolPro could easily help fill up these needs. PoolPro now helps with connecting people and makes it possible for businesses to place their
       information in the system to put them selves out there. Because of the fact some business lounges are to big for people to find each other
       connections are still not easy to make.  PoolPro helps cover this too, after finding some interesting connections you can send their
       information to your email, at the same time the connection will receive an email with your information too.</p><p>In this process I
-      helped creating the extra value from PoolPro but also the whole graphic design of the product.</p><p> To see PoolPro in working visit:
-      https://player.vimeo.com/video/135522873?wmode=transparent</p>`
+      helped creating the extra value from PoolPro but also the whole graphic design of the product.</p>
+      <br>
+      <iframe src="https://player.vimeo.com/video/135522873" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <a class="btn btn-default" href="https://player.vimeo.com/video/135522873?wmode=transparent">To see PoolPro in working</a>`
     },
     {
       title: 'Visual communication',
