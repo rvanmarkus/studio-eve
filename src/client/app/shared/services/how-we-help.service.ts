@@ -12,21 +12,21 @@ export class HowWeHelpService {
 			<div class="row text-center">
 				<div class="col-sm-4">
 					<div class="content">
-						<img src="assets/Service_design_Pagina_Foto1.jpg">
+						<img src="assets/Service_design_OTM.png">
 						<h3>On the move</h3>
 						<p>To be a creative company the two faces from exploration to exploitation of your service or product should be an ongoing spiral. Keep on questioning the value of your service or product. This is what service design brings and what it will strengthen.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="content">
-					<img src="assets/Service_design_pagina_foto2.jpg">
+					<img src="assets/Service_design_CN.png">
 					<h3>Customer needs</h3>
 						<p>Service design focuses on the customer and the if your offering is still in line with their needs in this fast changing society. This is essential to stay innovative. With Service design methods, customer needs are easily found and user.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="content">
-						<img src="assets/Service_design_pagina_foto3.jpg">
+						<img src="assets/Service_design_DI.png">
 						<h3>Design innovation</h3>
 						<p>Innovation happens more easy when business and design come together in a company. On one side analysis based on facts and figures and on the other a more creative approach in which ideation and improvisation create new ways of thinking. These worlds combined bring new perspectives.</p>
 					</div>
