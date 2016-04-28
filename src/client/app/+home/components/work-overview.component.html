@@ -9,9 +9,9 @@
       </div>
     </div>
     <div class="row" *ngFor="#row of getRows()">
-      <div class="col-sm-4 text-center" *ngFor="#col of row" (click)="openWork(col)">
-        <img src="/assets/work1.jpg" alt="" class="img-responsive">
-        <b>Service Design</b>
+      <div class="col-sm-4 text-center" *ngFor="#work of row" (click)="openWork(col)">
+        <img src="{{work.overviewPicture}}" alt="" class="img-responsive">
+        <b>{{work.title}}</b>
       </div>
       <!--<div class="col-sm-4 text-center">
         <img src="/assets/work2.jpg" alt="" class="img-responsive">
