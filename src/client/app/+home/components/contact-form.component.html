@@ -34,8 +34,8 @@
 					<div class="form-group">
 						<label for="message" class="h4 ">Message</label>
 						<textarea id="message" class="form-control" rows="5" ngControl="message" placeholder="Enter your message" required></textarea>
+						<button type="submit" id="form-submit" [disabled]="!contactForm.valid" class="btn btn-lg pull-right ">Send</button>
 					</div>
-					<button type="submit" id="form-submit" [disabled]="!contactForm.valid" class="btn btn-success btn-lg pull-right ">Submit</button>
 					<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
 				</div>
 				<div class="col-sm-2">

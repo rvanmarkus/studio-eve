@@ -30,7 +30,7 @@ export class ContactFormComponent implements OnInit {
 		const formSpreeUrl = 'https://formspree.io/rvanmarkus@xebia.com';
 		const formDataJSON = JSON.stringify(this.contactForm.value);
 
-		const headers = new Headers();
+		let headers = new Headers();
 		headers.append('Content-Type', 'application/json');
 
 		this.http.post(formSpreeUrl, formDataJSON, { headers : headers}).subscribe(event => {

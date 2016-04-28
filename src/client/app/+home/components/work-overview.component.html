@@ -1,0 +1,26 @@
+<section id="work" class="background-gray">
+  <div class="container text-justify">
+    <div class="row">
+      <div class="col-sm-8 col-sm-push-2">
+        <div class="text-center">
+          <h2>Work</h2>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="row" *ngFor="#row of getRows()">
+      <div class="col-sm-4 text-center" *ngFor="#col of row">
+        <img src="/assets/work1.jpg" alt="" class="img-responsive">
+        <b>Service Design</b>
+      </div>
+      <!--<div class="col-sm-4 text-center">
+        <img src="/assets/work2.jpg" alt="" class="img-responsive">
+        <b>Strategic design</b>
+      </div>
+      <div class="col-sm-4 text-center">
+        <img src="/assets/work3.jpg" alt="" class="img-responsive">
+        <b>Visual communication</b>
+      </div>-->
+    </div>
+  </div>
+</section>

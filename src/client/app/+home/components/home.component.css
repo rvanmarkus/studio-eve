@@ -43,3 +43,50 @@
   padding: 0 20px;
   text-align: justify;
 }
+.profile img.border.gray {
+  border-color: #cbcace;
+}
+
+.profile img.border {
+  padding: 10px;
+  border: solid 2px #ffd134;
+  border-radius: 50%;
+}
+
+.profile .help-figure figcaption {
+    background: #ffd134;
+    min-height: 127px;
+    display: block;
+    border-radius: 50%;
+    display: block;
+    font-weight: 400;
+    padding: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+}
+.profile .spacer{
+    display: block;
+    height: 35px;
+    background: #cbcace;
+    width: 2px;
+    margin: 8px auto;
+}
+.profile .help-figure .profile-picture{
+  transform: scale(1.2);
+}
+.profile .help-figure {
+  border: solid 2px #ffd134;
+  display: block;
+  border-radius: 50%;
+  color: #000;
+  margin-top: 15px;
+}
+.profile .description {
+  margin-top: 35px;
+}
+.profile h3 {
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
