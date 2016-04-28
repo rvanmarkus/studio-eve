@@ -27,7 +27,6 @@ export class WorkListService {
       slug: 'work-graphic-design',
       overviewPicture: '/assets/Joanna_beginfoto.jpg',
       pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-
       content: '<p>Lorem ipsum</p>'
     },
      {

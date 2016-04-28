@@ -17,5 +17,6 @@ export class WorkDetailComponent implements OnInit {
 
 	ngOnInit() {
 		this.work = this.workListService.get(this._params.get('slug'))[0];
+		console.log(this.workListService.get(this._params.get('slug'))[0]);
 	 }
 }
