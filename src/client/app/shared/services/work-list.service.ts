@@ -5,7 +5,7 @@ export class WorkListService {
       title: 'Strategic design',
       slug: 'work-strategic-design-',
       overviewPicture: '/assets/Infographic_Afstudeer.jpg',
-      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg'],
+      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg','/assets/Strategicdesign_Work_holeinthewall.jpg','/assets/Strategic_design_CreativeProcess.jpg','/assets/Strategic_design_Inhousedesignschooling.jpg','/assets/Strategic_design_BigData.jpg'],
       content: `<p>Business problems today demand a new way to manage change effectively.
       Business processes need to be revised to innovate by managing change with fast growth</p>
       <p>Therefor it is important that a business is creative and adaptive to change so they
@@ -16,7 +16,36 @@ export class WorkListService {
       industry to get a proper perception of the difference between both worlds and how they could
       learn from each other in there work processes.</p><p>For a company it would be use full to follow
       up all the steps in this process so it is possible to become creative from the inside out.
-      To know more about the steps I invite you to swipe to the right..<p>
+      To know more about the steps I invite you to swipe to the right..</p> <h3>Create to innovate</h3> <p>The first step to embed a creative 
+      approach within a business is by recognising creativity in existing processes. How do teams work, what are there assets to the team and 
+      how do they work together? A lot of people label themselves as ‘not creative’, this shows there is a misunderstanding about the definition 
+      of creativity. This is a global explanation of what we will be starting out with. It is important that people can pinpoint their value and 
+      how everybody can benefit from this to have the feeling they can rely on each other to ideate and create innovation.</p> 
+      <h3>Creative process</h3><p>After having a clear understanding of what creativity is for the company and how this works in the existing 
+      processes, we can start out with inserting a creative process. The creative process is based on processes used by designers for interesting 
+      ideas that could lead to innovation. In this process we will help understand and find the users they serve.And how to adjust to their needs.</p>
+      <h3>Big data analysis</h3><p>Nearly all of the data in the world nowadays did not exist two years ago. And if you look at the innovations that
+       got grand the past years, that have taken an important role in the lives of western civilizations like Google, Wikipedia, Uber, Smartphones, 
+       AirBnB are built on analytics and use Big Data! To find such an innovation, to change the world we live in, design thinking is one of the key 
+       assets!</p> <p>So if you simplify this, to only analyze without combining it with design thinking will give you predictable outcomes. But Design 
+       thinking without deep analysis leads to nothing. Leaders with the urge to grow will use both to find new interesting ways.</p>
+       <p> One of these ways is to create more insight on the end-user. How are they using your product / service, when are they using it and why are they using it. This all is to be found on the web. But how can you find the right information that leads you to valuable insight? Big data in this way can help you increase the value of the product / service or even the experience of it.. </p>
+       <p>To find a way managing Big Data is to know your users. Be empathetic that is why it is important for the IT department to see what 
+       the true problem is they are coping with, to find the right data the IT department must collaborate in knowing there users. This is an 
+       important part for a company to get a grip on their own existence.</p> <h3>Inhouse design schooling</h3> <p>To integrate design within 
+       the core of the company there has to be a solid factor of creative thinking. The chance of not following up on learning new ways of 
+       approaching old habits is big. To ensure creativity will be incorporated within the working processes of employees, this step will be 
+       valuable for the route closer to a creative business.
+      The previous steps showed the process of design thinkers. Employees generated insight on their own creativity, the value of creativity 
+      within their own work processes, experienced the creativity and expertise of their co-workers, how they can cooperate to have a wider 
+      perspective on how the ‘problem’ expresses itself. So the chance of bigger plans or innovations is possible.</p><p>The previous two steps, 
+      “ Creative process” & “Big data design analysis” will be important to stay focused on. To integrate the creative mindset into the way the 
+      participants work, will be repeated for as long as it takes to get them hands on within this mindset. Employees have to be more analytical 
+      on their own process and know at what times working together will lead to a better outcome.</p>
+
+ 
+  
+
 
 
 
@@ -26,7 +55,7 @@ export class WorkListService {
       title: 'Service design',
       slug: 'work-service-design',
       overviewPicture: '/assets/Poolpro_beginfoto.jpg',
-      pictures: ['/assets/PoolPro_Scherm.gif'],
+      pictures: ['/assets/PoolPro_Scherm.gif',],
       content: `<p>PoolPro is a game element that is used during football games in skyboxes and business lounges.
       In first place the game gives you the possibility to start a little competition between people in the lounge or skybox.</p>
       <p>To ensure that PoolPro covered the needs of the users and creates extra value to the surrounding we started a design
