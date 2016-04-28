@@ -18,5 +18,5 @@ git commit -m "Deploy to GitHub Pages"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-# tokens GH_TOKEN and GH_REF will be provided as Travis CI environment variables
-git push --force "https://78dcbe5245e9916b0f666d735ce31e45d3e1e889@github.com/rvanmarkus/studio-eve" master:gh-pages > /dev/null 2>&1
+# tokens GH_TOKEN and GH_REF will be provided as Travis CI environment variables  > /dev/null 2>&1
+git push --force "https://78dcbe5245e9916b0f666d735ce31e45d3e1e889@github.com/rvanmarkus/studio-eve" master:gh-pages
