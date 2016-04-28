@@ -6,16 +6,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 text-center">
-        <figure>
-          <img src="/assets/service-design.jpg" alt="Service Design" class="img-responsive">
-          <b>Service Design</b>
-        </figure>
-        <figcaption>
-          <p>Service design lends tools in which you can learn more about your user then ever before. We help you listen to your users and use service design tools to upgrade your service or product...</p>
-        </figcaption>
+      <div class="col-md-4 text-center" *ngFor="#method of helpMethods">
+        <a href="#how-we-help" (click)="openMethod(method)">
+			<figure>
+				<img src="{{method?.image}}" alt="{{method?.title}}" class="img-responsive">
+				<b>{{method.title}}</b>
+			</figure>
+			<figcaption>
+			<p [innerHTML]="method?.home"></p>
+			</figcaption>
+		</a>
       </div>
-      <div class="col-md-4 text-center">
+      <!--<div class="col-md-4 text-center">
         <figure>
           <img src="/assets/visual-design.jpg" alt="Service Design" class="img-responsive">
           <b>Visual Design</b>
@@ -32,7 +34,9 @@
         <figcaption class="text-justify">
           <p>We help you creating a company in which an  innovation in a natural outcome of a creative way of working. We learn design thinking in five diffrent steps...</p>
         </figcaption>
-      </div>
+      </div>-->
     </div>
+	<section id="method" *ngIf="visibleMethod" [innerHTML]="visibleMethod?.content">
+	</section>
   </div>
 </section>

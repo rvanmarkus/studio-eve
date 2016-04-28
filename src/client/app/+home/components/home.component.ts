@@ -3,12 +3,13 @@ import {CORE_DIRECTIVES, FORM_DIRECTIVES} from 'angular2/common';
 import { ContactFormComponent } from './contact-form.component';
 import {WorkListService} from '../../shared/index';
 import { WorkOverviewComponent } from './work-overview.component';
+import { HowWeHelpComponent } from './how-we-help.component';
 
 @Component({
   selector: 'sd-home',
   templateUrl: 'app/+home/components/home.component.html',
   styleUrls: ['app/+home/components/home.component.css'],
-  directives: [FORM_DIRECTIVES, CORE_DIRECTIVES, ContactFormComponent, WorkOverviewComponent]
+  directives: [FORM_DIRECTIVES, CORE_DIRECTIVES, ContactFormComponent, WorkOverviewComponent, HowWeHelpComponent]
 })
 export class HomeComponent {
   newName: string;
