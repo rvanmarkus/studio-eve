@@ -2,6 +2,12 @@
 	display: block;
 }
 
+:host h4 {
+	font-size: 21px;
+	color: #ffd134;
+	text-transform: uppercase;
+}
+
 #how-we-help figure img {
  transition: all .3s ease;
   border-radius: 50%;
@@ -41,7 +47,7 @@
   overflow: hidden;
   position: relative;
   width: 80%;
-  margin: auto;
+  margin: 25px auto 15px auto;
 }
 
 #how-we-help figcaption {

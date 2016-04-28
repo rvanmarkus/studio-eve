@@ -8,19 +8,24 @@ export class HowWeHelpService {
 			home: `Service design lends tools in which you can
 			 learn more about your user then ever before. We help you listen to your users and use service design tools
 			 to upgrade your service or product...`,
-			content: `<div class="row">
-			<div class="col-md-15">
-				<div class="content">
+			content: `
+			<div class="row text-center">
+				<div class="col-sm-8 col-sm-push-2">
 					<p>To be a creative company the two faces from exploration to exploitation of your service or product should be an ongoing spiral. Keep on questioning the value of your service or product. This is what service design brings and what it will strengthen.</p>
+					<br>
 				</div>
 			</div>
 			<div class="row">
-			<div class="col-md-15">
-				<div class="content">
-					<p>Service design focuses on the customer and the if your offering is still in line with their needs in this fast changing society. This is essential to stay innovative. With Service design methods, customer needs are easily found and user.</p>
+				<div class="col-md-15">
+					<div class="content">
+						<p>To be a creative company the two faces from exploration to exploitation of your service or product should be an ongoing spiral. Keep on questioning the value of your service or product. This is what service design brings and what it will strengthen.</p>
+					</div>
 				</div>
-			</div> 
-			<div class="row">
+				<div class="col-md-15">
+					<div class="content">
+						<p>Service design focuses on the customer and the if your offering is still in line with their needs in this fast changing society. This is essential to stay innovative. With Service design methods, customer needs are easily found and user.</p>
+					</div>
+				</div>
 			<div class="col-md-15">
 				<div class="content">
 					<p>Innovation happens more easy when business and design come together in a company. On one side analysis based on facts and figures and on the other a more creative approach in which ideation and improvisation create new ways of thinking. These worlds combined bring new perspectives.</p>
@@ -35,27 +40,27 @@ export class HowWeHelpService {
 			 communicate have grown exponentially, and internet makes it
 			 possible spreading information over the world everyday.. How to spread your story...`,
 			content: `<div class="row">
-			<div class="col-md-15">
-				<div class="content">
-					<p>Information overflow tranquilizes today’s society in a way. With as result they start filtering information that seems to be important for them and easy to digest. Therefor it is important to have a clear communication with your user.</p>
-				</div>
+			<div class="col-sm-8 col-sm-push-2 text-center">
+				<p>Information overflow tranquilizes today’s society in a way. With as result they start filtering information that seems to be important for them and easy to digest. Therefor it is important to have a clear communication with your user.</p>
+				<br>
+			</div>
 			</div>
 			<div class="row">
-			<div class="col-md-15">
+			<div class="col-md-4">
 				<h3 class="circle">Visual identity</h3>
 				<div class="content">
 					<p>To communicate the message of your product or service to your user, we can help you create a clear visual identity. We will work as close as needed with you to have a good understanding about the values of your company towards the market.</p>
 				</div>
-			</div> 
+			</div>
 			<div class="row">
-			<div class="col-md-15">
+			<div class="col-md-4">
 				<h3 class="circle">Visual storytelling</h3>
 				<div class="content">
 					<p>When communicating your ideas and dreams towards potential users or even stakeholders, it is from great importance that the information you are spreading speaks for itself. We can help designing this story!</p>
 				</div>
 			</div>
 		<div class="row">
-			<div class="col-md-15">
+			<div class="col-md-4">
 				<h3 class="circle">Outcome visualization</h3>
 				<div class="content">
 					<p>After or even during design processes (prototype) outcomes have to be communicated towards (possible) stakeholders. it would be of great value to visualize ideas. At these moments we can empower your ideation team with visual thinkers.</p>

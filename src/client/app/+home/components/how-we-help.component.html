@@ -1,44 +1,57 @@
 <section id="how-we-help">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h3>How we help...</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 text-center" *ngFor="#method of helpMethods">
-        <a pageScroll href="#method" (click)="openMethod(method)">
+	<div class="container">
+		<section>
+
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h4>How we help...</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center" *ngFor="#method of helpMethods">
+					<a pageScroll href="#method" (click)="openMethod(method)">
+						<figure>
+							<img src="{{method?.image}}" alt="{{method?.title}}" class="img-responsive">
+							<b>{{method.title}}</b>
+						</figure>
+						<figcaption>
+							<p [innerHTML]="method?.home"></p>
+						</figcaption>
+					</a>
+				</div>
+				<!--<div class="col-md-4 text-center">
 			<figure>
-				<img src="{{method?.image}}" alt="{{method?.title}}" class="img-responsive">
-				<b>{{method.title}}</b>
+			<img src="/assets/visual-design.jpg" alt="Service Design" class="img-responsive">
+			<b>Visual Design</b>
 			</figure>
 			<figcaption>
-			<p [innerHTML]="method?.home"></p>
+			<p>Technology and ways to communicate have grown exponentially, and internet makes it possible spreading information over the world everyday.. How to spread your story...</p>
 			</figcaption>
-		</a>
-      </div>
-      <!--<div class="col-md-4 text-center">
-        <figure>
-          <img src="/assets/visual-design.jpg" alt="Service Design" class="img-responsive">
-          <b>Visual Design</b>
-        </figure>
-        <figcaption>
-          <p>Technology and ways to communicate have grown exponentially, and internet makes it possible spreading information over the world everyday.. How to spread your story...</p>
-        </figcaption>
-      </div>
-      <div class="col-md-4 text-center">
-        <figure>
-          <img src="/assets/strategic-design.jpg" alt="Service Design" class="img-responsive">
-          <b>Strategic Design</b>
-        </figure>
-        <figcaption class="text-justify">
-          <p>We help you creating a company in which an  innovation in a natural outcome of a creative way of working. We learn design thinking in five diffrent steps...</p>
-        </figcaption>
-      </div>-->
-    </div>
-	<div class="row" id="method">
-		<section *ngIf="visibleMethod" [innerHTML]="visibleMethod?.content">
+		</div>
+		<div class="col-md-4 text-center">
+			<figure>
+			<img src="/assets/strategic-design.jpg" alt="Service Design" class="img-responsive">
+			<b>Strategic Design</b>
+			</figure>
+			<figcaption class="text-justify">
+			<p>We help you creating a company in which an  innovation in a natural outcome of a creative way of working. We learn design thinking in five diffrent steps...</p>
+			</figcaption>
+		</div>-->
+			</div>
+		</section>
+		<section>
+			<div id="method">
+				<div>
+					<div class="col-sm-12 text-center" *ngIf="visibleMethod">
+						<h4>{{visibleMethod?.title}}</h4>
+						<br>
+					</div>
+				</div>
+				<div *ngIf="visibleMethod">
+					<section [innerHTML]="visibleMethod?.content">
+					</section>
+				</div>
+			</div>
 		</section>
 	</div>
-  </div>
 </section>
