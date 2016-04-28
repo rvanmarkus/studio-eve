@@ -1,5 +1,5 @@
-import { Component, OnInit } from 'angular2/core';
-import {FORM_PROVIDERS, FormBuilder, Validators, ControlGroup} from 'angular2/common';
+import { Component } from 'angular2/core';
+import {FormBuilder, Validators, ControlGroup} from 'angular2/common';
 import {Http, HTTP_PROVIDERS, Headers} from 'angular2/http';
 
 @Component({
@@ -7,7 +7,7 @@ import {Http, HTTP_PROVIDERS, Headers} from 'angular2/http';
 	viewProviders: [HTTP_PROVIDERS],
 	templateUrl: 'app/+home/components/contact-form.component.html'
 })
-export class ContactFormComponent implements OnInit {
+export class ContactFormComponent {
 	contactForm : ControlGroup;
 	submitted: boolean = false;
 
@@ -37,7 +37,4 @@ export class ContactFormComponent implements OnInit {
 			console.log('posted', event);
 		});
 	}
-
-	ngOnInit() { }
-
 }

@@ -7,6 +7,8 @@ git init
 git config user.name "Travis CI"
 git config user.email "<eefje_auer@live.nl>"
 
+echo "studio-eve.com" > CNAME
+
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitHub Pages".
 git add .

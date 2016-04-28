@@ -1,4 +1,4 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component } from 'angular2/core';
 import { HowWeHelpService } from '../../shared/services/how-we-help.service';
 import { HelpMethod } from '../../shared/help-method.interface';
 import {PageScroll} from 'ng2-page-scroll';
@@ -10,7 +10,7 @@ import {PageScroll} from 'ng2-page-scroll';
 	directives: [PageScroll],
 	styleUrls: ['app/+home/components/how-we-help.component.css']
 })
-export class HowWeHelpComponent implements OnInit {
+export class HowWeHelpComponent {
 	helpMethods: HelpMethod[];
 	visibleMethod: HelpMethod;
 
@@ -18,8 +18,6 @@ export class HowWeHelpComponent implements OnInit {
 		this.helpMethods = this._howWeHelpService.get();
 
 	}
-
-	ngOnInit() { }
 
 	openMethod(method : HelpMethod) {
 		this.visibleMethod = method;

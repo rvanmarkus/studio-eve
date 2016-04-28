@@ -1,4 +1,4 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component } from 'angular2/core';
 import { WorkListService } from '../../shared/services/work-list.service';
 import {Router} from 'angular2/router';
 import { Work } from '../../shared/work.interface';
@@ -7,7 +7,7 @@ import { Work } from '../../shared/work.interface';
 	viewProviders: [WorkListService],
 	templateUrl: 'app/+home/components/work-overview.component.html'
 })
-export class WorkOverviewComponent implements OnInit {
+export class WorkOverviewComponent {
 	rows: Object[][] = new Array();
 
 	constructor(nameListService : WorkListService, private _router: Router) {
@@ -16,8 +16,6 @@ export class WorkOverviewComponent implements OnInit {
 			this.rows.push(allWorkItems.splice(0,3));
 		}
 	}
-
-	ngOnInit() { }
 
 	getRows() {
 		return this.rows;
