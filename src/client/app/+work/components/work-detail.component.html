@@ -9,7 +9,7 @@
 			</div>
 			<div class="col-sm-6">
 				<img *ngFor="#image of work?.pictures" src="{{image}}" class="img-responsive">
-				<video width="100%" controls>
+				<video width="100%" controls *ngIf="work.movie">
   					<source [src]="work?.movie" type="video/mp4">
 				</video>
 			</div>
