@@ -5,7 +5,7 @@ export class WorkListService {
       title: 'Strategic design',
       slug: 'work-strategic-design-',
       overviewPicture: '/assets/Infographic_Afstudeer.jpg',
-      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg','/assets/Strategicdesign_Work_holeinthewall.jpg','/assets/Strategic_design_CreativeProcess.jpg','/assets/Strategic_design_Inhousedesignschooling.jpg','/assets/Strategic_design_BigData.jpg'],
+      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg','/assets/Strategic_design_Createtoinnovate.jpg','/assets/Strategic_design_CreativeProcess.jpg','/assets/Strategic_design_Inhousedesignschooling.jpg','/assets/Strategic_design_BigData.jpg'],
       content: `<p>Business problems today demand a new way to manage change effectively.
       Business processes need to be revised to innovate by managing change with fast growth</p>
       <p>Therefor it is important that a business is creative and adaptive to change so they
