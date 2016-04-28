@@ -13,6 +13,9 @@ before_script:
   - sh -e /etc/init.d/xvfb start
   # - nohup bash -c webdriver-manager start 2>&1 &  # Protractor CI
   - sleep 1  # give server time to start
+script:
+ - npm build.prod
+ - bash ./.travis-deploy.sh
 
 after_failure:
   - cat /home/travis/build/mgechev/angular2-seed/npm-debug.log
@@ -20,9 +23,6 @@ after_failure:
 branches:
   only: master
 
-scripts:
- - npm build.prod
- - bash ./.travis-deploy.sh
 
 cache:
 directories: node_modules
