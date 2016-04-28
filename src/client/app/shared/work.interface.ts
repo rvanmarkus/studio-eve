@@ -4,4 +4,5 @@ export interface Work {
 	overviewPicture: string;
 	pictures: string[];
 	content: string;
+	movie: string;
 }

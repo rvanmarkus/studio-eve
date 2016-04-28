@@ -1,68 +1,120 @@
-import { Work } from '../work.interface';
+import {Work} from '../work.interface';
 export class WorkListService {
   work : Work[] = [
     {
       title: 'Strategic design',
       slug: 'work-strategic-design-',
       overviewPicture: '/assets/Infographic_Afstudeer.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg'],
+      content: `<p>Business problems today demand a new way to manage change effectively. 
+      Business processes need to be revised to innovate by managing change with fast growth</p>
+      <p>Therefor it is important that a business is creative and adaptive to change so they 
+      represent the needs of the users. I created a model that helps companies with these necessary 
+      adjustments to become creative from the inside out.</p> <p>The model is built up in a few steps. 
+      The steps I created are a global approach. I established the steps during my graduation, after a 
+      long study in which I spoke to people working in the creative sector and people from the business 
+      industry to get a proper perception of the difference between both worlds and how they could 
+      learn from each other in there work processes.</p><p>For a company it would be use full to follow 
+      up all the steps in this process so it is possible to become creative from the inside out. 
+      To know more about the steps I invite you to swipe to the right..<p>
+     
+      
+      
+      `
     },
     {
       title: 'Service design',
       slug: 'work-service-design',
       overviewPicture: '/assets/Poolpro_beginfoto.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/PoolPro_Scherm.gif'],
+      content: `<p>PoolPro is a game element that is used during football games in skyboxes and business lounges. 
+      In first place the game gives you the possibility to start a little competition between people in the lounge or skybox.</p>
+      <p>To ensure that PoolPro covered the needs of the users and creates extra value to the surrounding we started a design 
+      research process and tested the needs of users with different methods. After this research we found there where some 
+      important needs in the skybox that weren’t yet covered. A skybox is indirectly a place where people network and look 
+      for potential business partners. In many skyboxes or lounges the people that attend to these events are not visible or easily to be found.</p>
+      PoolPro could easily help fill up these needs. PoolPro now helps with connecting people and makes it possible for businesses to place their 
+      information in the system to put them selves out there. Because of the fact some business lounges are to big for people to find each other 
+      connections are still not easy to make.  PoolPro helps cover this too, after finding some interesting connections you can send their 
+      information to your email, at the same time the connection will receive an email with your information too.</p><p>In this process I 
+      helped creating the extra value from PoolPro but also the whole graphic design of the product.</p><p> To see PoolPro in working visit: 
+      https://player.vimeo.com/video/135522873?wmode=transparent</p>`
     },
     {
       title: 'Visual communication',
       slug: 'work-visual-communication',
       overviewPicture: '/assets/Beyond_words_mag.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/Beyond_words_mag_1.jpg', '/assets/Beyond_words_mag_2.jpg','/assets/Beyond_words_mag.jpg','Beyond_words_mag3.jpg'],
+      content: `<p>Beyond words is a magazine that is based on typography. 
+      The magazine contains different character, like the prime minister of the Netherlands Mark Rutte, 
+      a famous musician Faberyayo and myself. Every character got it's own font that fits to his or her 
+      personality and style. The articles written about the characters explain their personality and the font choice.</p>`
     },
     {
-      title: 'Graphic desgin',
+      title: 'Graphic design',
       slug: 'work-graphic-design',
       overviewPicture: '/assets/Joanna_beginfoto.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/Joanna_Poster.jpg', '/assets/Onderdeel_2_Joanna_poster.jpg','/assets/onderdeel_Joann_Poster.jpg'],
+      content: `<p>Size:  1189 x 841 mm</p>
+      <p>This poster is made as a graphic challenge.  It is an ode to the typographer Eric Gill, with his type faze “Joanna”.</p>` 
     },
      {
       title: 'Creative workshops',
       slug: 'work-creative-workshops',
       overviewPicture: '/assets/Service_design_beginscherm.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      movie:`/assets/ibb_W.mp4`,
+      content: `<p>For some people within companies it is hard to find connection in their teams. And therefor find it hard 
+      to see the value of others or even themselves to the team. This disconnection is one of the factors that keeps a company 
+      from growing faster or even adapting slower to the needs of customers. </p><p>In a healthy environment where people know 
+      what the value of them selves and co-workers is, ideas spread faster and people can learn from one another.</p><p>We give
+       workshops in which people can specify what their assets are, how they can help one another and how they could work 
+       more as a team then an individual.<p>See how people experienced the workshops and what they have learned in the movie.</p>`  
     },
     {
       title: 'Creative startup process',
       slug: 'work-creative-startup',
       overviewPicture: '/assets/Sessie_Beginfotos.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/Creative_session_Startup.gif'],
+      content: `<p>Starting up a business is an adventure on itself. Finding clients, working for them and trying to find more clients. 
+      Because life of an beginning entrepreneur could bring a lot of action, it is hard to keep in focus what your process is.  
+      It can be from great value to have a moment, take a step back and see what you have been doing the past months.</p><p>We help you 
+      find the value of your company and create a clear vision of what you bring to your clients. This focus can help you sell your service 
+      or product even faster and be more open about your assets to your clients.</p> <p>After the session you will receive an overview of your
+       assets, what your process is and what your plans are for the future and how to reach those goals.</p> ` 
     },
 {
       title: 'Graphic design',
       slug: 'work-graphic-design-patterns',
       overviewPicture: '/assets/Beginscherm_WORK_fotos.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/patronen.web.jpg', '/assets/Patronen_boek_geel.jpg','/assets/Patronen_boek_tekst.jpg'],
+      content: `<p>When I look at a painting in a museum my interest always goes out to the little details. 
+      Take for example Jan van Eyck, The way he paints the skirt of a lady, waving fluently across her legs. 
+      Or the fine detailed ornaments, worked out to perfection. This gives a perfect perspective on the culture at that time.</p><p>`  
     },
     {
       title: 'Infographic PET bottles',
       slug: 'work-infographic',
       overviewPicture: '/assets/Petflessen-infographic.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/zwerfafval.jpg', '/assets/Petfl_Infogr_1.jpg','/assets/Petfl_infogr_2.jpg'],
+      content: `<p>In collaboration with two fellow graphic design students we designed an infographic about the usage of PET bottles in the Netherlands. 
+      To make a clear visual about what we wanted to communicate to our audience we created a analog image.</p><p>Because of this fascination I made a 
+      book with patterns inspired on patterns threw out every continent over the world.Threw research I made a selection of one artwork per continent. 
+      The artworks symbolize an important time for the establishment of a particular culture. threw out the patterns in the artworks I created new 
+      modernized patterns.</p>` 
     },
     {
       title: 'Application',
       slug: 'work-Application',
       overviewPicture: '/assets/Applicatie_WORK_fotos.jpg',
-      pictures: ['/assets/work1.jpg', '/assets/work2.jpg'],
-      content: '<p>Lorem ipsum</p>'
+      pictures: ['/assets/astatine_App.gif'],
+      content: `<p>This is an application designed for an underground party</p>
+      <p>The app has to be 'invisible' so not accessible for everyone. Because of this I named the party ' Astatine'. 
+      Astatine is one of the most rare metals on this earth and can only be found deep under the ground. The metal is highly radioactive.
+      This underlines the idea of rareness. The only way someone can be part of Astatine is by having the right connections. A person can 
+      only get the app when a friend sends an invitations to them. Everybody that gets a invitation can invite two people to the party, 
+      but it'll have to be fast because the party can only hold 300 people in total. On the app you can see who is invited, what the 
+      location of the party is, this will be shown on the app 2 hours before the kick off, and what kind of Dj's there will be playing at Astatine.</p>
+      <p>The logo I designed for the app is based on the electron shel of Astatine. By clicking on the dots in the app, it zooms in on information.</p>`  
     }
     ];
   getAll():Object[] {
@@ -70,6 +122,6 @@ export class WorkListService {
   }
 
   get(slug : string) {
-    return this.work.filter((work) => work.slug === slug);
+    this.work.filter((work) => work.slug === slug);
   }
 }
