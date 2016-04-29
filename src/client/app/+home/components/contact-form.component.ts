@@ -27,7 +27,7 @@ export class ContactFormComponent {
 	}
 
 	sendMail() {
-		const formSpreeUrl = 'https://formspree.io/rvanmarkus@xebia.com';
+		const formSpreeUrl = 'https://formspree.io/eefje_auer@live.nl';
 		const formDataJSON = JSON.stringify(this.contactForm.value);
 
 		let headers = new Headers();
