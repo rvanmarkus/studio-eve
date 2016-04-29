@@ -32,7 +32,6 @@ export class ContactFormComponent {
 
 		let headers = new Headers();
 		headers.append('Content-Type', 'application/json');
-
 		this.http.post(formSpreeUrl, formDataJSON, { headers : headers}).subscribe(event => {
 			console.log('posted', event);
 		});

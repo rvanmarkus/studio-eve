@@ -5,6 +5,7 @@
 				<h2 class="inverted">Contact</h2>
 			</div>
 		</div>
+		<h3 id="msgSubmit" [hidden]="!submitted" class="h3 text-center">Thank you for getting in touch!</h3>
 		<form [ngFormModel]="contactForm" (submit)="submitContactForm($event)" [hidden]="submitted">
 			<div class="row">
 				<div class="col-sm-5">
@@ -36,7 +37,6 @@
 						<textarea id="message" class="form-control" rows="5" ngControl="message" placeholder="Enter your message" required></textarea>
 						<button type="submit" id="form-submit" [disabled]="!contactForm.valid" class="btn btn-lg pull-right ">Send</button>
 					</div>
-					<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
 				</div>
 				<div class="col-sm-2">
 
