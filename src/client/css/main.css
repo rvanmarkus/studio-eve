@@ -198,3 +198,14 @@ section {
 .content p {
   padding: 0 12px;
 }
+slide-show {
+  display: block;
+  margin-top:20px;
+}
+button.flickity-prev-next-button {
+    opacity: 0.5 !important;
+    transition: opacity .35s ease;
+}
+.flickity-prev-next-button:hover {
+    opacity: 1 !important;
+}

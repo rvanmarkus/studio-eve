@@ -3,14 +3,12 @@ export class WorkListService {
   work : Work[] = [
     {
       title: 'Strategic design',
-      slug: 'work-strategic-design-',
+      slug: 'work-strategic-design',
       overviewPicture: '/assets/Infographic_Afstudeer.jpg',
-      pictures: ['/assets/Strategicdesign_Work_holeinthewall.jpg',
-      '/assets/Strategic_design_Createtoinnovate.jpg',
-      '/assets/Strategic_design_CreativeProcess.jpg',
-      '/assets/Strategic_design_BigData.jpg','/assets/Strategic_design_Inhousedesignschooling.jpg',],
-
-      content: `<p>Business problems today demand a new way to manage change effectively.
+      slideshow: [
+        {
+          image: '/assets/Strategicdesign_Work_holeinthewall.jpg',
+          content: `<p>Business problems today demand a new way to manage change effectively.
       Business processes need to be revised to innovate by managing change with fast growth</p>
       <p>Therefor it is important that a business is creative and adaptive to change so they
       represent the needs of the users. I created a model that helps companies with these necessary
@@ -20,17 +18,25 @@ export class WorkListService {
       industry to get a proper perception of the difference between both worlds and how they could
       learn from each other in there work processes.</p><p>For a company it would be use full to follow
       up all the steps in this process so it is possible to become creative from the inside out.
-      To know more about the steps I invite you to swipe to the right..</p>
-      <h3>Create to innovate</h3> <p>The first step to embed a creative
+      To know more about the steps I invite you to swipe to the right..</p>`
+        },
+        {
+          image: '/assets/Strategic_design_Createtoinnovate.jpg',
+          content: `
+           <h3>Create to innovate</h3> <p>The first step to embed a creative
       approach within a business is by recognising creativity in existing processes.
        How do teams work, what are there assets to the team and
       how do they work together? A lot of people label themselves as ‘not creative’, this shows there is
        a misunderstanding about the definition
       of creativity.
-      This is a global explanation of what we will be starting out with. It is important that people can pinpoint their value and
+      This is a global explanation of what we will be starting out with. It  is important that people can pinpoint their value and
       how everybody can benefit from this to have the feeling they can rely on each other to ideate and create innovation.</p>
-
-      <h3>Creative process</h3>
+      `
+        },
+        {
+          image: '/assets/Strategic_design_CreativeProcess.jpg',
+          content: `
+               <h3>Creative process</h3>
       <p>After having a clear understanding of what creativity is for the company
        and how this works in the existing processes, we can start out with inserting a creative
         process. The creative process is based on processes used by designers for
@@ -38,7 +44,13 @@ export class WorkListService {
       ideas that could lead to innovation. In this process we will help understand
       and find the users they serve.And how to adjust to their needs.</p>
 
-      <h3>Big data analysis</h3>
+
+      `
+        },
+        {
+          image: '/assets/Strategic_design_BigData.jpg',
+          content: `
+              <h3>Big data analysis</h3>
       <p>Nearly all of the data in the world nowadays did not exist two years ago. And if you
        look at the innovations that got grand the past years,
        that have taken an important role in the lives of western civilizations like Google, Wikipedia, Uber, Smartphones,
@@ -58,7 +70,13 @@ export class WorkListService {
        the true problem is they are coping with, to find the right data the IT department must
        collaborate in knowing there users. This is an
        important part for a company to get a grip on their own existence.</p>
-       <h3>Inhouse design schooling</h3> <p>To integrate design within
+
+      `
+        },
+        {
+          image: '/assets/Strategic_design_Inhousedesignschooling.jpg',
+          content: `
+             <h3>Inhouse design schooling</h3> <p>To integrate design within
        the core of the company there has to be a solid factor of creative thinking. The chance of not following up on learning new ways of
        approaching old habits is big. To ensure creativity will be incorporated within the working processes of employees,
        this step will be
@@ -73,6 +91,12 @@ export class WorkListService {
       To integrate the creative mindset into the way the participants work, will be repeated for as long
        as it takes to get them hands on within this mindset. Employees have to be more analytical
       on their own process and know at what times working together will lead to a better outcome.</p>
+      `
+        }
+
+      ],
+      content: `
+
       `
     },
     {

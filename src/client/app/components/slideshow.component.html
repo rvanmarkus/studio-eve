@@ -1,0 +1,20 @@
+ <div class="carousel">
+  <div #carousel class="slides carousel js-flickity">
+
+    <div class="carousel-cell" *ngFor="#slide of slides">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-push-1">
+						<div class="row">
+							<div class="col-sm-7" [innerHTML]="slide.content">
+							</div>
+							<div class="col-sm-5">
+								<img [src]="slide.image" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

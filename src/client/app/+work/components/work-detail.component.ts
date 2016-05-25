@@ -2,12 +2,13 @@ import { Component, OnInit } from 'angular2/core';
 import { WorkListService } from '../../shared/services/work-list.service';
 import {Work} from '../../shared/work.interface';
 import {RouteParams} from 'angular2/router';
-
+import { SlideshowComponent } from '../../components/slideshow.component';
 @Component({
 	selector: 'work-details',
 	viewProviders: [WorkListService],
 	templateUrl: 'app/+work/components/work-detail.component.html',
-	styleUrls: ['app/+work/components/work-detail.component.css']
+	styleUrls: ['app/+work/components/work-detail.component.css'],
+	directives: [SlideshowComponent]
 })
 export class WorkDetailComponent implements OnInit {
 	public work: Work;

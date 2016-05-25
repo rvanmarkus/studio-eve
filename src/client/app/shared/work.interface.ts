@@ -1,3 +1,4 @@
+import { SlideShowItem } from './slideshow-item.interface';
 export interface Work {
 	title: string;
 	slug: string;
@@ -5,4 +6,5 @@ export interface Work {
 	pictures?: string[];
 	content: string;
 	movie?: string;
+	slideshow?: SlideShowItem[];
 }
