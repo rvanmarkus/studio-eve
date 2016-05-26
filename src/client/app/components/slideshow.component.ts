@@ -18,7 +18,7 @@ export class SlideshowComponent  implements AfterViewInit {
     flickityCarousel : Flickity;
 	ngAfterViewInit () {
         console.log(this.carousel);
-        new Flickity( this.carousel.nativeElement, {
+        this.flickityCarousel = new Flickity(this.carousel.nativeElement, {
             // options
               cellAlign: 'left',
                 contain: false,
