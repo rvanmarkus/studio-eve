@@ -17,11 +17,11 @@ export class SlideshowComponent  implements AfterViewInit {
     @ViewChild('carousel') carousel : ElementRef;
     flickityCarousel : Flickity;
 	ngAfterViewInit () {
-        console.log(this.carousel);
         this.flickityCarousel = new Flickity(this.carousel.nativeElement, {
             // options
               cellAlign: 'left',
                 contain: false,
+                autoPlay: true
             });
 	}
 }
