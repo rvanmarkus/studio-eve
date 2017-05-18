@@ -2,6 +2,135 @@ import {Work} from '../work.interface';
 export class WorkListService {
   work : Work[] = [
     {
+      title: 'Desgin with data',
+      slug: 'work-design-with-data',
+      overviewPicture: '/assets/Data_Passporting.jpg',
+      pictures: ['/assets/dwd1.jpg', '/assets/dwd2.jpg','/assets/dwd4.jpg','/assets/dwd5.jpg','/assets/dwd6.jpg'],
+      content: `<p>If geopolitical conflict in the physical world spreads and reaches the virtual world, will our ubiquity be challenged?</p>
+      <p>Ubiquitous people: a new type of human that can be mobile within a click of a button. We do not fully understand how mobile we are, until an error appears in the procedure. What does it mean to be connected? Does digital connection enable us to be separate on the physical level?</p>
+<p>
+Connecting cities was never the same as it is today. The need for trading with other cities led our ancestors to start looking for ways to form routes. Land, sea and air created hubs where people and goods could use them for going from place to place. Computers created a new type of good- data- which people needed to exchange with each other, inventing this way, a new digital route system, the Internet.
+</p>
+<p>The world is changing according to its model of time. How do we travel now? Instantly through the Internet. Any past notions of time and space are now shattered and the digital network has replaced it. Humans have placed great efforts to develop means of communications since early time. With the digital age and today's proliferation of mobile devices and the rapid growth of Internet content, devices such as phones, laptops, and tablets have made data available anytime-anywhere. By transition, this feature can be associated with humans of this era. Social media such as Facebook and Twitter have made humans more connected, making them connected anytime-anywhere; thus the people and their data are ubiquitous in time and space. A person from the United States on a business trip to the United Kingdom can communicate with his/her colleagues and family by sending files, picture, voice or video chat, while also contacting other business associates in China, and meet in person with clients in the United Kingdom all at once. However, if the Internet, the digital world, had ‘borders’ mapped to the borders and boundaries of how the physical world is governed, how will the future of people and their data being ubiquitous become if a service such as “Social Media” were to become outlawed? How will people still be connected?  (The Economist, 2017)
+</p>
+<p>Although governments have negotiated the regulations with how physical goods and people travel via different mediums such as land, sea, air and outer space, they did not place thorough laws and rules for how the Internet would be used, due to the complexity of its nature. An article from The Atlantic questions if we are approaching ‘The End of the Internet?’. This question, more like concern, stems from the fear that geopolitical conflict in the physical world can spread and reach the virtual world (the Internet), where it will be isolated and divided internet systems (subsystems). Therefore, taking the properties of what makes the Internet an appealing hub to share and send data, anytime/anywhere, this is challenged by the introduction of special devices and/or browsers that have the ability to gain access to certain aspects of the Internet and go beyond certain firewalls. (Goldstein, 2014;The Economist, 2016; L.S., p. 2016). Fear of compromising national security has driven some governments to introduce such restrictions to data flow to go beyond their borders (U.S. Chamber of Commerce, p. 2016).  
+</p>
+<p>Through the design of a game called Data Passporting, our team aims to examine the experience people would have if there were strict digital borders, corresponding to national borders, throughout the internet. Would governments need to create fees for each route? How would this change the way we connect with each other? What would happen if our data shared our nationality and our passport? Finally, we question, Would ubiquity be challenged?
+</p>
+
+<p></p>
+
+`
+    },
+    {
+      title: 'IoT design',
+      slug: 'work-iot-design',
+      overviewPicture: '/assets/Safe_Comm.jpg',
+      slideshow: [
+        {
+          image: '/assets/iot1.jpg',
+          content: `<p>For the Cisco Challenge my team and I cached up on a current major issue regarding refugee camps.
+It was received well and won the second prize because of it’s innovative and social problem solving approach. According to UN 21.3 million people in the world suffer from displacement due to the refugee crisis. About 80% of these are women and children, and half of those are under age. Stress due to displacement and language barriers creates a feeling of insecurity and threat amongst refugees.
+</p><p>
+UN prioritises on water/food and shelter. There haven’t been to many efforts to provide safety for people coming from a war zone. 
+And we have an interesting solution to this problem within our product.</p>`
+        },
+        {
+          image: '/assets/iot2.jpg',
+          content: `<p>After research we found out that the main problem was based on the three important items known as ‘Language Barriers , ‘Lack on sense of Security’  & ‘Lack on sense of community’. Our product can build an environment tackling the problems around unsafe feelings amongst refugees.</p>
+          <p></p>
+      `
+        },
+        {
+          image: '/assets/iot3.jpg',
+          content: `
+               <p>Our product can build an environment tackling the problems around unsafe feelings amongst refugees.</p>
+
+<p>The product we built is a button that can be placed in every tent on refugee camps. The product serves as emergency button. When the button is pressed, a signal will be sent to (registered) phones in the camp (worth mentioning is that according to research it is known that nearly every refugee has a mobile phone).
+ The button is to be pressed in case of an emergency. 
+Because the tents usually carry 30 people and a lot of people are not familiar with each other it is hard to contact if necessary. Our product will bridge that problem.</p>
+
+
+      `
+        },
+        {
+          image: '/assets/iot4.jpg',
+          content: `
+               <p>Donate for Safety 
+(Donate anything your hart desires )</p>>
+
+<p>We will crowdsource 
+funding through Kickstarter campaign</p>
+
+<p>Adopt a Camp
+(starting at £1000,-)</p>
+
+<p>Allows donors to sponsor a 
+package that will service an 
+entire camp.</p>
+
+<p>Partner up
+(starting at £50K)</p>
+
+<p>As non-profit organisation we will seek funding from private and public sector by approaching 
+investors that feel relevant.</p>
+
+      `
+        }
+      ],
+      content: `
+
+      `
+    },
+    {
+      title: 'Product design',
+      slug: 'work-product-design',
+      overviewPicture: '/assets/Bike_pic.jpg',
+      slideshow: [
+        {
+          image: '/assets/bike1.jpg',
+          content: `<p>NAVI is a system of connected devices that aims to enhance navigation and improve the safety and enjoyment of cyclists in Edinburgh. A review of the available data on cycling within the city gave visibility to increased safety risks when cycling within specific times and locations. When considering user groups, cyclists within hearing impairments were identified as an often overlooked group within cycling design & policy. 
+This inspired my team and me to design a system that provides users with contextual information relating to routes and topography within the city as well as spatial information relating to the traffic scenarios they are engaged within.</p>`
+        },
+        {
+          image: '/assets/bike2.jpg',
+          content: `
+           <h3>Design Proposal & User Testing</h3> <p>
+
+The NAVI system design addresses the three requirements drawn from cycling challenges specific to Edinburgh. The technology focuses on simplified navigation, safety and a social cycling feature. The navigation system’s architecture and technical components include: 
+<p>° NAVI Watch: watch-like device attached to bycycle </p>
+  handlebars</p>
+<p>° Tail-sensors/ safety camera</p>
+<p>° Laser lanes for improved visibility at night</p>
+<p>° Vibrating handlebars interacting with sensors to alert user to what is going on behind traffic</p>
+<p>
+System evaluation by onsite user testing</p>
+<p>
+We created a prototype and tested it with potential users. Before testing, the user was given an overview of the system functions as well as a set of instructions to follow the aspects of the system that were being tested. The user was encouraged to think aloud throughout the testing, to capture thought process whilst interacting with the system. We recorded user’s verbal thoughts by mounting a GoPro on to his head. The user also completed a system usability questionnaire & provided additional feedback through an interview.</p>
+</p>      `
+        },
+        {
+          image: '/assets/bike3.jpg',
+          content: `
+      <p>During this process we created a system in which we researched, prototyped & tested the product with potential users. I particularly played a big role in the research, testing and evaluating phases of the project. It was my task to create questions, interview and research that had to be made to create true value with the product.
+The product was part of a assignment for the Master ‘Design Informatics’ which I am following this year at the University of Edinburgh.</p>
+<br>
+<br>
+<br>
+<br><br><br>
+<iframe src="https://www.youtube.com/embed/BbrNmU9qR_w" width="480"
+       height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      
+      `
+
+        },
+
+      ],
+      content: `
+
+      `
+    },
+    {
       title: 'Strategic design',
       slug: 'work-strategic-design',
       overviewPicture: '/assets/Infographic_Afstudeer.jpg',

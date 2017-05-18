@@ -7,7 +7,9 @@ import { SlideShowItem } from '../shared/slideshow-item.interface';
   width: 100%; /* full width */
   display: block;
   overflow:hidden;
-  margin-right: 10px;
+  margin-top : 100px;
+    margin-right: 10px;
+    
 }
 `]
 })
