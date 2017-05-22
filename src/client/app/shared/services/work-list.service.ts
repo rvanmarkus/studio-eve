@@ -2,7 +2,7 @@ import {Work} from '../work.interface';
 export class WorkListService {
   work : Work[] = [
     {
-      title: 'Desgin with data',
+      title: 'Design with data',
       slug: 'work-design-with-data',
       overviewPicture: '/assets/Data_Passporting.jpg',
       pictures: ['/assets/dwd1.jpg', '/assets/dwd2.jpg','/assets/dwd4.jpg','/assets/dwd5.jpg','/assets/dwd6.jpg'],
